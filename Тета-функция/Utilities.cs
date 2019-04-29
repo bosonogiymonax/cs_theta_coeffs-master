@@ -56,7 +56,6 @@ namespace Theta {
 
 
         public static double[] CalcCoeffs(double a, int coeffCount, int maxBuff = 80) {
-            //double a = 2 * sigma * sigma;
             double c_a = Utilities.mz_ini(a);
             double[] c = new double[coeffCount];
             double buff;
